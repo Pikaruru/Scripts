@@ -1,3 +1,4 @@
+--obf because code looks like ukraine's border
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
