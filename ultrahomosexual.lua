@@ -8,22 +8,19 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5; 
 })
 
-
+game.Players.LocalPlayer.PlayerGui.CoinEffects.Enabled = false
 
 --made by kalas#1330 dont dm otherwise ill eat your ass
 local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
 local Toggled = false
 local Keybind = "f" --keybind
-local PopupUI = game.Players.LocalPlayer.PlayerGui.CoinEffects
 
 Mouse.KeyDown:Connect(function(Key)
 if Key == Keybind then
 if Toggled then
 Toggled = false
-PopupUI.Enabled = true
 else
 Toggled = true
-PopupUI.Enabled = false
 while task.wait() do
 if Toggled == true then
 pcall(function()
