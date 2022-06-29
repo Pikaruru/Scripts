@@ -1,3 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "lgbtq is a mental illness", -- Required
+	Text = "buy kiriothub", -- Required
+	Icon = "rbxassetid://1234567890" -- Optional
+})
+
 
 --made by kalas#1330 dont dm otherwise ill eat your ass
 local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
