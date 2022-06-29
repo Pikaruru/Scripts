@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "lgbtq is a mental illness", -- Required
+	Title = "lgbtq = mental illness", -- Required
 	Text = "buy kiriothub", -- Required
 	Icon = "rbxassetid://1234567890" -- Optional
 })
