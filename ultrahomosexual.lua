@@ -1,3 +1,15 @@
+if not game:IsLoaded() then
+game.Loaded:Wait()
+end
+game.StarterGui:SetCore("SendNotification", { 
+    Title = "lgbtq = mental illness"; 
+    Text = "buy kiriothub"; 
+    Icon = ""; 
+    Duration = 5; 
+})
+
+
+
 --made by kalas#1330 dont dm otherwise ill eat your ass
 local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
 local Toggled = false
@@ -28,10 +40,3 @@ end
 end
 end
 end)
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "lgbtq = mental illness", -- Required
-	Text = "buy kiriothub", -- Required
-	Icon = "rbxassetid://1234567890" -- Optional
-})
-
