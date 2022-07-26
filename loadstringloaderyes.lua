@@ -13,11 +13,8 @@ else
                 if game.PlaceId == 9588998913 then
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/empireclash.lua"))()
                 else
-                    if game.PlaceId == 6551809638 then
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/farmingadventures.lua"))()
-                    else
-                        if game.PlaceId == 10070062081 then
-                            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/minion.lua"))()
+                    if game.PlaceId == 10070062081 then
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/minion.lua"))()
                         else
                             if game.PlaceId == 2043040358 then
                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/vyyrahk.lua"))()
@@ -32,8 +29,7 @@ else
                                             loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/romangaypire.lua"))()
                                         else
                                             if game.PlaceId == 10033287610 then
-                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/smasherman.lua"))()
-                                            end
+                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/smasherman.lua"))()
                                         end
                                     end
                                 end
