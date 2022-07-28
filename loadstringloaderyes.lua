@@ -33,6 +33,10 @@ else
                                             else
                                                 if game.PlaceId == 8585657145 then
                                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/animeherosimulator.lua"))()
+                                            else
+                                                if game.PlaceId == 10108131074 then
+                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/mowthelawn.lua"))()
+                                               end
                                            end
                                         end
                                     end
