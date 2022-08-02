@@ -19,7 +19,7 @@ else
                             if game.PlaceId == 2043040358 then
                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/vyyrahk.lua"))()
                             else
-                                if game.PlaceId == 10191372093 then
+                                if game.PlaceId == 10325366821 then
                                     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/GuillotineTycoon.lua"))()
                                 else
                                     if game.PlaceId == 9894044804 then
