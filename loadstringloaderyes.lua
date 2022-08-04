@@ -15,23 +15,23 @@ else
                 else
                     if game.PlaceId == 10070062081 then
                         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/minion.lua"))()
-                        else
-                            if game.PlaceId == 2043040358 then
+                    else
+                        if game.PlaceId == 2043040358 then
                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/vyyrahk.lua"))()
-                            else
-                                if game.PlaceId == 10325366821 then
+                        else
+                            if game.PlaceId == 10325366821 then
                                     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/GuillotineTycoon.lua"))()
-                                else
-                                    if game.PlaceId == 9894044804 then
+                            else
+                                if game.PlaceId == 9894044804 then
                                         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/bladesimulator.lua"))()
-                                    else
-                                        if game.PlaceId == 4895427362 then
+                                else
+                                    if game.PlaceId == 4895427362 then
                                             loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/romangaypire.lua"))()
-                                        else
-                                            if game.PlaceId == 10033287610 then
+                                    else
+                                        if game.PlaceId == 10033287610 then
                                             loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/smasherman.lua"))()
-                                            else
-                                                if game.PlaceId == 8585657145 then
+                                        else
+                                            if game.PlaceId == 8585657145 then
                                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/animeherosim.lua"))()
                                             else
                                                 if game.PlaceId == 10108131074 then
@@ -42,6 +42,10 @@ else
                                                     else
                                                         if game.PlaceId == 10011532704 then
                                                             loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/AnimeBrawlSimulator.lua"))()
+                                                        else
+                                                            if game.PlaceId == 8612195438 then
+                                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/clickerpartysimulator.lua"))()
+                                                            end
                                                         end
                                                     end
                                                end
