@@ -45,6 +45,10 @@ else
                                                         else
                                                             if game.PlaceId == 8612195438 then
                                                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/clickerpartysimulator.lua"))()
+                                                            else
+                                                                if game.PlaceId == 7898006543 then
+                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/mushroomsimulator.lua"))()
+                                                                end
                                                             end
                                                         end
                                                     end
