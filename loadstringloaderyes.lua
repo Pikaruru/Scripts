@@ -54,6 +54,10 @@ else
                                                                     else
                                                                          if game.PlaceId == 7225720036 then
                                                                             loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/miningsaga.lua"))()
+                                                                        else
+                                                                            if game.PlaceId == 9157870347 then
+                                                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/petadventures.lua"))()
+                                                                            end
                                                                         end
                                                                     end
                                                                 end
