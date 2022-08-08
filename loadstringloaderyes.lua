@@ -48,9 +48,13 @@ else
                                                             else
                                                                 if game.PlaceId == 7898006543 then
                                                                     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/mushroomsimulator.lua"))()
-                                                                    else
+                                                                else
                                                                     if game.PlaceId == 9927535243 then
                                                                         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/minersgalore.lua"))()
+                                                                    else
+                                                                         if game.PlaceId == 7225720036 then
+                                                                            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/miningsaga.lua"))()
+                                                                        end
                                                                     end
                                                                 end
                                                             end
