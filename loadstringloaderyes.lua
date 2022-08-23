@@ -63,6 +63,10 @@ else
 																				else
 																					if game.PlaceId == 10157366004 then
 																						loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/pettappingsimulator.lua"))()
+																					else
+																						if game.PlaceId == 9970551995 then
+																							loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/touchthegrass.lua"))()
+																						end
 																					end
 																				end
 																			end
