@@ -1,3 +1,8 @@
+--discord.gg/boronide, code generated using luamin.js™
+
+
+
+
 if game.PlaceId == 6551809638 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/farmingadventures.lua"))()
 else
@@ -66,6 +71,10 @@ else
 																					else
 																						if game.PlaceId == 9970551995 then
 																							loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/touchthegrass.lua"))()
+																						else
+																							if game.PlaceId == 10204162989 then
+																								loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/pickaxesim.lua"))()
+																							end
 																						end
 																					end
 																				end
