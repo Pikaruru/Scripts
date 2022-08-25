@@ -1,8 +1,3 @@
---discord.gg/boronide, code generated using luamin.js™
-
-
-
-
 if game.PlaceId == 6551809638 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/farmingadventures.lua"))()
 else
