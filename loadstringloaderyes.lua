@@ -69,6 +69,10 @@ else
 																						else
 																							if game.PlaceId == 10204162989 then
 																								loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/pickaxesim.lua"))()
+																							else
+																								if game.PlaceId == 10347946161 then
+																									loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/ratwash.lua"))()
+																								end
 																							end
 																						end
 																					end
