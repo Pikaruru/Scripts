@@ -20,13 +20,7 @@ local window = ui.Load({
 local Client = game.Players.LocalPlayer
 local RS = game.ReplicatedStorage
 local Notifications = Client.PlayerGui.ScreenGui.Notifications
-
-local Events = {
-	Click = RS.Communication.Events.ClickDetect,
-	Hatch = RS.Communication.Events.OpenCapsules,
-	Rebirth = RS.Communication.Events.Rebirth,
-	EquipBest = RS.Communication.Events.EquipBest,
-}
+local Network = require(game.ReplicatedStorage.Modules.Utils.Network)
 
 local Settings = {
 	AutoClick = false,
@@ -57,7 +51,7 @@ do
 		while true do
 			task.wait()
 			if Settings.AutoClick then
-				Events.Click:FireServer()
+				Network:FireServer("ClickDetect")
 			end
 		end
 	end
@@ -65,7 +59,7 @@ do
 		while true do
 			task.wait()
 			if Settings.AutoHatch then
-				Events.Hatch:FireServer(Settings.SelectedEgg, 1)
+				Network:FireServer("OpenCapsules", Settings.SelectedEgg, 1)
 			end
 		end
 	end
@@ -73,15 +67,7 @@ do
 		while true do
 			task.wait()
 			if Settings.AutoRebirth then
-				Events.Rebirth:FireServer(Settings.SelectedRebirth)
-			end
-		end
-	end
-	function Functions.Equip()
-		while true do
-			task.wait()
-			if Settings.AutoEquip then
-				Events.EquipBest:FireServer()
+				Network:FireServer("Rebirth", Settings.SelectedRebirth)
 			end
 		end
 	end
@@ -111,12 +97,6 @@ do
 		end,
 	})
 	Tabs.Autofarm.Toggle({
-		Text = "Auto Equip",
-		Callback = function(Value)
-			Util.SetSetting("AutoEquip", Value)
-		end,
-	})
-	Tabs.Autofarm.Toggle({
 		Text = "Auto Rebirth",
 		Callback = function(Value)
 			Util.SetSetting("AutoRebirth", Value)
@@ -133,6 +113,9 @@ do
 		Callback = function(Value)
 			Notifications.Visible = not Value
 		end,
+	})
+	Tabs.Autofarm.Label({
+		Text = "-> lower cased kalas#1330 <3_<3",
 	})
 end
 
